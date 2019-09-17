@@ -32,7 +32,6 @@ class Graph
 	}
 	private boolean isCyclePresentUtil(int source, boolean isVisited[], boolean recursionStack[])
 	{
-		// Incorrect? First we need to check if this vertex is in recursionStack.
 		if(isVisited[source])
 			return false;
 		isVisited[source] = true;
